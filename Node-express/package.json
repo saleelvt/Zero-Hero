@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "node-modules": "^1.0.1",
+    "upper-case": "^3.0.0"
+  }
+}

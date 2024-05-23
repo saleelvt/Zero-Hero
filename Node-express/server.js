@@ -1,8 +1,17 @@
 const http=require('http')
 
-http.createServer((req,res)=>{
+const my=require('./data')
 
-    res.writeHead(200,{'Content-type':'text/html'})
-    res.end('hello world gfgf fdfdfdsf')
+console.log('saleel ',  my.data);
 
-}).listen(6069)
+
+// http.createServer((req,res)=>{
+
+//     res.writeHead(200,{'Content-type':'text/html'})
+
+
+//     res.end('saleel')
+
+// }).listen(3033)
+
+// console.log('d',module);

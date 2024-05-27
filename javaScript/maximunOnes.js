@@ -17,17 +17,11 @@
 
             for (let x of str2) {
             // console.log('saleel');
-                if(!str1.includes(x)){
+                if(str1.includes(x)){
                     console.log('values',x);
 
                 }
                
             }
-
-
-
-
-
-
 
 

@@ -1,93 +1,106 @@
-const object = [{
+const object = [
+  {
+    name: "hamsa",
+    place: "valapuram",
+    fullNames: "kutty",
+    salary: 30000,
+    age: 23,
+    obj: [
+      {
+        name: "jurij",
+        age: "21",
+        place: "kpkulampu",
+      },
+    ],
 
-    name:'hamsa',
-    place:'valapuram',
-    fullNames:'kutty',
-    salary:30000,
-    age:23,
+    fullName: function () {
+      console.log("name", this.name + " " + this.fullNames);
+    },
+  },
+  {
+    name: "saleel",
+    place: "thiruveegappura",
+    fullNames: "maaran",
+    salary: 50000,
+    age: 22,
+    // fullName: function () {
+    //   console.log("name", this.name + this.fullNames);
+    // },
+  },
+  {
+    name: "niyas",
+    place: "valapuram",
+    salary: 40000,
+    age: 22,
+  },
+  {
+    name: "anas",
+    place: "majampra",
+    salary: 45000,
+    age: 25,
+  },
+]
 
-   obj:[{
-    name:'jurij',
-    age:'21',
-    place:'kpkulampu'
+//  object.forEach((x)=>{
+//       console.log(x);
+// })  
 
-}],
 
-    fullName: function (){
 
-    console.log('name', this.name + " "+this.fullNames);
-    
-    }
-},
-{
-
+const obj={
     name:'saleel',
-    place:'thiruveegappura',
-    fullNames:'kutty',
-    salary:50000,
-    age:22,
-    fullName: function (){
+    age:21,
+    place:'thiruvegapura'
+}
 
-        console.log('name', this.name + this.fullNames);
-        
-        }
-   
-},{
+// const {name:myname,myAge:age,myPlace:place}=obj
 
-    name:'niyas',
-    place:'valapuram',
-    salary:40000,
-    age:22
-},{
-
-    name:'anas',
-    place:'majampra',
-    salary:45000,
-    age:25
-},
-
-];
+// console.log(myname);
 
 
+// let master={...object,...obj}
 
-console.log(object.values());
-
-
-
+// console.log(master);
 
 
+// let array=[1,2,3,4]
+
+// let a =(a,b,c)=>{ 
+
+//     return a+b+c+c}
+
+// console.log(a(...array));
 
 
+// function sum(...numbers){
 
-// let fullNameofOne=object[1].fullName()
+//     return numbers.reduce((number,total)=>number+total,0)
 
-// for(i=0;i<object.length;i++){
-
-//     console.log('haty ',object[i]);
-    
+         
 // }
 
-// // console.log('new ',object[0].obj.length);
+// console.log('sum ',sum(3,4,5,6,2,1,7,9,8));
 
-// for( let x in object[0].obj ){
-//     console.log('this is my jurij obj ' ,x);
-// }
 
-// let jurijarary = object[0].obj.map((x)=>{
+const add = [first,...rest]=[1,2,3,4]
 
-//     return  x.name 
+console.log(add);
+
+
+
+
+
+
+// const filter=object.find((x)=>{
+
+//     return x.age>21
 
 // })
 
-// console.log('my object',jurijarary);
+// console.log(filter);
 
 
-// console.log('my objects ',fullNameofOne);
 
-// let hamsas=object.map((x)=>{
 
-//     return  x.name
-
-// })
-
-// console.log('maped ',hamsas);
+// const bind=object[0].fullName.bind(object[1])
+// bind()

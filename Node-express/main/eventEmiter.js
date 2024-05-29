@@ -1,18 +1,26 @@
 
-const EventEmitter=require('events')
+// const { log } = require('console');
+// const event=require('events')
 
-const myEmitter= new EventEmitter()
+// const myEmitter= new event()
 
-myEmitter.on('event',(message)=>{
+// myEmitter.on('events',(data)=>{
 
-        console.log('an event occured ',message)
-})
+//     console.log(data);
 
-myEmitter.once('once',(message)=>{
+// })
 
-    console.log(message);
-})
+// let data= console.log("new ");
+// // eval(data)
+// console.log(datsa);
 
-myEmitter.emit('event','hay saleel ')
-myEmitter.emit('once','this message only print one time ')
+
+
+// console.clear()
+// console.log('sd',newsd);,
+
+
+
+// myEmitter.emit('once','this message only print one time ')
 // myEmitter.emit('onceEvent','this message 2 print one time ')
+e

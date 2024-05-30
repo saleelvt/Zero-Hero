@@ -1,20 +1,16 @@
 
-function a(a,b,c){
+function a(a){
 
+    return function(b){
 
-    function b (b){
+        return function(c){
 
-        function c(c){
+            return a+b+c
 
-            console.log('my values ',a+b+c);
-
-    
         }
-        c(3)
+
     }
-    b(2)
 
-
-    
 }
-a(10)
+
+ console.log(a(5)(10)(3))

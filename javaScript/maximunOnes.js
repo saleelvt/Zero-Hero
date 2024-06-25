@@ -10,16 +10,14 @@
             // // }
             // }
             
-            let str1="hello8"
-            let str2="hello23656454"
+            let str1="hello"
+            let str2="hello"
             // console.log('dfd',str1[0]);
-
 
             for (let x of str2) {
             // console.log('saleel');
                 if(str1.includes(x)){
                     console.log('values',x);
-
                 }
                
             }

@@ -1,24 +1,32 @@
-const { stat } = require("fs");
 
-function pali(array){
-  
-  let sum =   array.reduce((state,value)=>{
 
-    //  return     value > 4 ? state+=value :null
+// function createCounter() {
 
-        // return state+=value
-        if(value>4){
-            return state+=value
-        }else{
-            return null
-        }
-        
-        
-    },0)
+  //   let count = 4;
 
-    return sum
+//   return function(){
 
-  
-}
+//      return count++
 
-console.log('my array ',pali([1,2,3,7,7,7]));
+//     // count=count+1
+
+//     // if(count==1){
+//     //   return 1
+//     // } else if(count==2){
+//     //   return 2
+
+//     // }else if(count==3){
+
+//     //   return 3
+
+//     // }
+//   }
+// }
+
+// const counter = createCounter();
+
+// console.log(counter()); // 1
+// console.log(counter()); // 2
+// console.log(counter()); // 3
+// console.log(counter()); // 3
+

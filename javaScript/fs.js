@@ -1,9 +1,13 @@
-
 const fs=require('fs')
-fs.deleteFile('hay.txt', 'anshad is my friend and anas ', (err,data) => {
-    if (err) {
-        console.error('Error reading file:', err);
-        return;
+
+fs.readFile('hallo.txt','utf8',(err,data)=>{
+ 
+    if(err){
+ 
+        throw err
+    
     }
-    console.log('File contents:', );
-});
+
+    console.log(data);
+
+})

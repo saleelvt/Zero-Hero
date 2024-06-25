@@ -1,13 +1,10 @@
 // const { HighlightSpanKind } = require("typescript");
 
-const { rejects } = require("assert");
-const { resolve } = require("path");
-const { resourceUsage } = require("process");
-const { callbackify } = require("util");
+
 
 // for( let  i=0;i<=5000;i++){
 // setTimeout(()=>{
-
+ 
 //         console.log('my data',i);
 
 //     },0)
@@ -41,4 +38,16 @@ const { callbackify } = require("util");
 // };
 
 // sum(5, 5)
+
+
+let saleel=['name',"age",'place']
+
+let [, age,] = saleel
+
+
+
+console.log(age);
+
+
+
 

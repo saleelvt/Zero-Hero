@@ -12,11 +12,11 @@ const object = [
         place: "kpkulampu",
       },
     ],
-
     fullName: function () {
       console.log("name", this.name + " " + this.fullNames);
     },
   },
+
   {
     name: "saleel",
     place: "thiruveegappura",
@@ -39,57 +39,70 @@ const object = [
     salary: 45000,
     age: 25,
   },
-]
+];
 
-//  object.forEach((x)=>{
-//       console.log(x);
-// })  
+let add = object[0].fullName.call(object[1]);
 
 
+// console.log('my add ',add);
 
-const obj={
-    name:'saleel',
-    age:21,
-    place:'thiruvegapura'
-}
+
+
+
+
+
+removeindex = object.findIndex((obj) => obj.name === "niyas");
+
+object.splice(removeindex, 1, { name: "gouse", place: "tirur", age: 22 });
+
+// console.log('now my object ',object);
+
+let obj = {
+  fullName: function (city,a) {
+     return this.name + " " + this.age + city+a
+  },
+};
+
+
+const obj1 = {
+  name: "saleel",
+  age: 21,
+  place: "thiruvegapura",
+};
+let my = obj.fullName.bind(obj1, "valanchery",);
+
+console.log(my('usa'));
+
+
+// console.log(my);
 
 // const {name:myname,myAge:age,myPlace:place}=obj
 
 // console.log(myname);
 
-
 // let master={...object,...obj}
 
 // console.log(master);
 
-
 // let array=[1,2,3,4]
 
-// let a =(a,b,c)=>{ 
+// let a =(a,b,c)=>{
 
 //     return a+b+c+c}
 
 // console.log(a(...array));
 
-
 // function sum(...numbers){
 
 //     return numbers.reduce((number,total)=>number+total,0)
 
-         
 // }
 
 // console.log('sum ',sum(3,4,5,6,2,1,7,9,8));
 
+// const add = [first,...rest]=[1,2,3,4]
 
-const add = [first,...rest]=[1,2,3,4]
-
-console.log(add);
-
-
-
-
-
+// console.log(add);
 
 // const filter=object.find((x)=>{
 
@@ -98,9 +111,6 @@ console.log(add);
 // })
 
 // console.log(filter);
-
-
-
 
 // const bind=object[0].fullName.bind(object[1])
 // bind()

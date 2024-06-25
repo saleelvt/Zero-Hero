@@ -1,20 +1,14 @@
+let c = 39;
+var a = 10;
+function pro() {
 
-function a(a){
-    let add=2828
+    console.log(a);
+    var a=20
+    console.log(a);
 
-    function b (b){
-
-        function c(c){
-
-            console.log('my values ',a+b+c);
-
-            console.log('value from function ',add);
-        }
-        c(5)
-    }
-    b(5)
-
-
-    
 }
-a(10)
+// console.log(a);
+
+pro();
+
+

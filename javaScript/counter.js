@@ -1,17 +1,17 @@
- var createCounter=function (n) {
-   
-    return function(){
 
-        return n+1
+let name='saleel'
 
+for(let i =0 ;i<name.length;i++){
+    if(name[i]=='s'){
+        name[i]='S'
     }
+}
+console.log(name);
 
-    };
+// let a = tuple('d','b')
+// console.log(a);
 
+let set=['d','f','d']
 
-let counter = createCounter(10)
-  console.log(counter()); // 10
-  console.log(counter()); // 11
-  console.log(counter()); // 12
- 
- 
+let b=new Set(set)
+console.log(b);

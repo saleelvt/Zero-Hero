@@ -9,6 +9,7 @@ function generateFibonacci(array, n) {
    if (n === 2) {
        return;
    }
+   
    const nextNumber = array[array.length - 1] + array[array.length - 2];
    array.push(nextNumber);
    generateFibonacci(array, n - 1);

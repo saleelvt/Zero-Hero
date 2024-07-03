@@ -1,27 +1,11 @@
+let a ='f'
+console.log(a);
 
-// const fruits = ["Banana", "Orangedddddddd", "Appledd", "Mango",'saleeldd','anas'];
+a='e'
+console.log(a);
 
-// let a ={name:'saleel',
-//     age:'32',
-//     place:'thiruveegappura'
-// }
-'use strict';
+let c={name:'saleel'}
+console.log(c);
+c.name='kekana'
 
-let a ='saleel'
-
-let b= a
-b='sale'
-
-
-
-if(a==b){
-
-    console.log(true);
-
-}else{
-    console.log(false);
-}
-
-
-console.log(b);
-
+console.log(c);

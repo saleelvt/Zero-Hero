@@ -37,8 +37,6 @@ let obj={
 
 
 // let arr=[]
-
-
 for(let x of Object.keys(obj)){
     if(Array.isArray(obj[x])){        
     arr.push(obj[x])

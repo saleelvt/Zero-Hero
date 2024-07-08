@@ -1,11 +1,9 @@
-let a ='f'
-console.log(a);
 
-a='e'
-console.log(a);
 
-let c={name:'saleel'}
-console.log(c);
-c.name='kekana'
 
-console.log(c);
+let mytime = new Date().toDateString()
+console.log(mytime)
+
+let random = Math.random(1000000)*10000
+
+console.log(random);

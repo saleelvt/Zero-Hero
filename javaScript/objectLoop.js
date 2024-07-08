@@ -1,57 +1,21 @@
 
-// const object = [
-//     {
-//       name: "hamsa",
-//       place: "valapuram",
-//       fullNames: "kutty",
-//       salary: 30000,
-//       age: 23,
-//       obj: [
-//         {
-//           name: "jurij",
-//           age: "21",
-//           place: "kpkulampu",
-//         },
-//       ],
-//       fullName: function () {
-//         console.log("name", this.name + " " + this.fullNames);
-//       },
-//     },
-//     {
-//       name: "saleel",
-//       place: "thiruveegappura",
-//       fullNames: "maaran",
-//       salary: 50000,
-//       age: 22,
-//     },
-//     {
-//       name: "niyas",
-//       place: "valapuram",
-//       salary: 40000,
-//       age: 22,
-//     },
-//     {
-//       name: "anas",
-//       place: "majampra",
-//       salary: 45000,
-//       age: 25,
-//     },
-//   ]
+const event=require('events')
+const eventEmiter= new event()
 
 
-let obj={
+eventEmiter.on('evnet',(message)=>{
+    console.log(message);
+})
+eventEmiter.once('event',(message)=>{
+    console.log(message);
+})
 
-    name:'saleel',
-    age:21,
-    place:'thiruveegappura',
-    address:'variyathodi',
-
-}
-// let values= Object.values(obj)
-// console.log(values);
-
-
-for(let key in obj){
-    console.log('my data',  key, 'datas1',obj[key]);
-}
-
+eventEmiter.emit('evnet','my mom name is saleelna ')
+eventEmiter.emit('evnet','my mom name is saleelna ')
+eventEmiter.emit('evnet','my mom name is saleelna ')
+eventEmiter.emit('evnet','my mom name is saleelna ')
+eventEmiter.emit('event','my name is saleel ')
+eventEmiter.emit('event','my name is saleel ')
+eventEmiter.emit('event','my name is saleel ')
+eventEmiter.emit('event','my name is saleel ')
+eventEmiter.emit('event','my name is saleel ')

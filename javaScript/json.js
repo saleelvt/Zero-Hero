@@ -6,6 +6,9 @@
 //     };
 // }
 
+
+let a= 10 
+
 // let b = a();
 // console.log(b()); // Output: 0
 // console.log(b()); // Output: 1

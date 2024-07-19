@@ -25,4 +25,8 @@ let obj = {
 let sort=obj.address.sort((a,b)=> a.street-b.street)
 
 // let g=Array.from(sort)
+
+
 console.log(k);
+// it will be a undefined and tool kit 
+console.log('');

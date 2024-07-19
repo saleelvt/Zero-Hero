@@ -1,13 +1,12 @@
-const { log } = require("console");
 
-// let arr=[3,5,6,8,8,6,4,4]
-let arr=[8,9,10]
-let ara= arr.every((age)=>{
-    return  age>6
-})
+var add='dfd'
 
-console.log(ara);
+let a = function (){
 
-// let arrayr= Array.of('saleel','niyas','hamsa') 
-
-// console.log(arrayr)
+     var  add ='salelejfj'
+     console.log(add);
+    }
+    
+    // var add ='mcha'
+    console.log(add);
+a()

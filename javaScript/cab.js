@@ -1,4 +1,4 @@
-const { last } = require("lodash");
+
 
 let a ={
     name:'saleel',
@@ -15,7 +15,20 @@ let obj={
     last:'tp'
 }
 
+let myObj={
+    name : 'saleel',
+    place: 'thiruveegappura ',
+    age: 21,
+
+    details : 'saleel from valanchery and its details : address : variyathodi and  this. name. address '
+}
+
+
  let add=fullName.bind(a,'mavoor',4)
 
 
 add('dfd')
+
+let b =new Array(40)
+
+console.log(b);

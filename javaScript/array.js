@@ -6,9 +6,7 @@ let count=0
 let counts=[]
 
 for(i=0;i<arr.length-1;i++){
-
     for(j=0;j<arr.length-1;j++){
-
         if(arr[i]===arr[j]){
             count=count +1 
         }

@@ -1,21 +1,15 @@
-
-const express = require('express');
-
-const app =express()
-
-
-let id=9947440303
-
-app.get('/user/:id', (req, res) => {
-
-    // Access the 'id' parameter
-    const userId = req.params.q;
-    res.send(`User ID: ${userId}`);
-
-  });
+const express = require("express");
+const app = express();
+app.get("/user", (req, res) => {
   
+  const {q}=req.query
+
+  res.send(q)
 
 
-app.listen(3000,()=>{
-    console.log('server startd');
-})
+});
+
+const PORT = 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
+});

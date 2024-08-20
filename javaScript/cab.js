@@ -10,6 +10,7 @@ let fullName =function(address,sem ,d){
     console.log(this.name+' '+this.last,address,sem,d);
 }
 
+
 let obj={
     name:'jishnu',
     last:'tp'
@@ -29,6 +30,3 @@ let myObj={
 
 add('dfd')
 
-let b =new Array(40)
-
-console.log(b);

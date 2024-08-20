@@ -4,7 +4,8 @@ const obj = {
         return this.value;
     }
  };
- zz
+
+ 
  const anotherObj = {
     value: 99
  };

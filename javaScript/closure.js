@@ -1,14 +1,19 @@
-let c = 39;
-var a = 10;
-function pro() {
 
-    console.log(a);
-    var a=20
-    console.log(a);
 
+let a ={
+    name:'saleel',
+    age:21,
+   
 }
-// console.log(a);
+function  myName(name,age,macha,add){
+    console.log(this.name,this.age,macha,add)
+}
 
-pro();
+let b={
+    name:'anas',
+    age:20
+}
 
 
+
+myName.apply(b,['dj','fdfdffd'])

@@ -9,6 +9,7 @@ function person(name,age){
     return {
         name:name,
         age:age,
+        
         nameAge:function (){
             return 'my name and age',this.name+ this.age
         }
@@ -51,6 +52,7 @@ function Person(name, age) {
   
 
 // constructure function 
+
 function Person(name) {
     this.name = name;
   

@@ -1,9 +1,18 @@
 
 
+var b = "saleel";
+let c = "anas";
+const d = "niyas";
+const maxh=23
 
-let mytime = new Date().toDateString()
-console.log(mytime)
+function a() {
+  var b = "ijas";
+  let c = "gouse";
+  const d = "alwi";
+  console.log(b);
+  console.log(c);
+  console.log(d);
+ console.log(maxh);
 
-let random = Math.random(1000000)*10000
-
-console.log(random);
+}
+a();

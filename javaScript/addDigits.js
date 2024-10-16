@@ -8,7 +8,6 @@ console.log( 'number array',numberArray);
 
 let sum=0
 for (let i = 0; i < numberArray.length; i++) {
-    
     sum= sum+numberArray[i]
     console.log('firstsum',sum);
     if (sum < 10) {

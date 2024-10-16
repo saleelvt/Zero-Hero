@@ -1,15 +1,20 @@
 
 
 
-function greet(name, callback) {
-    console.log("Hello " + name);
-    callback();
-}
-function sayGoodbye() {
-  console.log("Goodbye!");
-}
-  greet("Alice", sayGoodbye);
-  // Output:
-  // Hello Alice
-  // Goodbye!
+
+a()
+ 
+
+  var a =function (){
+
+  let a =30
+  b=90
+  var e=40
+  const w=50
+  console.log(a+b);
+  console.log(e);
   
+ }
+ 
+
+ 

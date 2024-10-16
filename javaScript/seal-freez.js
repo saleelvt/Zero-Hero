@@ -3,7 +3,7 @@ let obj = {
   age: 21,
 };
 
-Object.seal(obj);
+// Object.seal(obj);
 // Object.freeze(obj);
 
 obj.age = 32;

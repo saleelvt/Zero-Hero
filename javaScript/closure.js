@@ -6,7 +6,7 @@ let a ={
    
 }
 function  myName(name,age,macha,add){
-    console.log(this.name,this.age,macha,add)
+    console.log(name,age,macha,add)
 }
 
 let b={
@@ -16,4 +16,4 @@ let b={
 
 
 
-myName.apply(b,['dj','fdfdffd'])
+myName.call(b,'dj','fdfdffd')

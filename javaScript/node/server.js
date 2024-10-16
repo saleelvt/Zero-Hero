@@ -1,10 +1,17 @@
-const express = require("express");
+const express= require("express")
 const app = express();
 app.get("/user", (req, res) => {
   
   const {q}=req.query
 
-  res.send(q)
+  app.use((err,req,res,next)=>{
+
+    res.status(301)
+    res.send('this one of the best erorr which i ever seen ',err)
+    
+  })
+
+  res.send(":saleel is a good boy ")
 
 
 });

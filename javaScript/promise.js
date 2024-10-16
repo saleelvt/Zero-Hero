@@ -34,7 +34,7 @@ let myPromise = new Promise((resolve, rejects) => {
 });
 
 
-let sumPromise= datafromfirst=> new Promise((resolve,rejects)=>{
+let sumPromise= datafromfirst => new Promise((resolve,rejects)=>{
 
     setTimeout(() =>  resolve(datafromfirst *2), 1000);
 

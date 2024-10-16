@@ -5,6 +5,7 @@ for (let i = 1; i < array.length; i++) {
     nowElement = array[i];
   }
 }
+
 let secondLargest = -Infinity; 
 // Find the second largest element
 for (let j = 0; j < array.length; j++) {

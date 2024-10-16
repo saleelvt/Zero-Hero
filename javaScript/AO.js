@@ -16,12 +16,7 @@
 // console.log(sortted);
 // console.log(sdf);
 
-let obj={
-    a:[10,3,5,6],
-    c:5,
-    b:[20,5,6,],
-    d:-1
-}
+
 
 // for(){}
 
@@ -37,14 +32,14 @@ let obj={
 
 
 // let arr=[]
-for(let x of Object.keys(obj)){
-    if(Array.isArray(obj[x])){        
-    arr.push(obj[x])
-    }
-}
+// for(let x of Object.keys(obj)){
+//     if(Array.isArray(obj[x])){        
+//     arr.push(obj[x])
+//     }
+// }
 
 
-console.log(arr)
+// console.log(arr)
 
 
 
@@ -108,4 +103,17 @@ console.log(arr)
 
 // let myarray = Object.entries(obj)
 // console.log(myarray);
+
+
+
+let obj={
+    a:[10,3,5,6],
+    c:5,
+    b:[20,5,6,],
+    d:-1
+}
+
+
+
+
 

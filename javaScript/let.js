@@ -42,11 +42,9 @@
 
 let saleel=['name',"age",'place']
 
-let [, age,] = saleel
+let [ ,vali] = saleel
 
-
-
-console.log(age);
+console.log(vali);
 
 
 
